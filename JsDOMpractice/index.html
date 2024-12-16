@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BaiTap JS Buoi 5</title>
+  </head>
+  <body>
+    <!-- Bài 1 -->
+    <h1 class="">Bài 1</h1>
+    <div class="" style="display: flex">
+      <h2 class="" style="font-weight: 400">Diem chuan</h2>
+      <input
+        type="text"
+        id="b1-diemchuan"
+        class=""
+        placeholder="18"
+        style="margin: 20px"
+      />
+      <h2 class="" style="font-weight: 400">Tong diem 3 mon</h2>
+      <input
+        type="text"
+        id="b1-tongdiem"
+        class=""
+        placeholder="19"
+        style="margin: 20px"
+      />
+    </div>
+    <div class="" style="display: flex">
+      <h2 class="" style="font-weight: 400">Khu vuc</h2>
+      <input
+        type="text"
+        id="b1-khuvuc"
+        class=""
+        placeholder="X, A, B, C"
+        style="margin: 20px"
+      />
+      <h2 class="" style="font-weight: 400">Doi tuong du thi</h2>
+      <input
+        type="text"
+        id="b1-doituong"
+        class=""
+        placeholder="1, 2, 3"
+        style="margin: 20px"
+      />
+    </div>
+    <div class="" style="display: flex">
+      <button id="btn-tinhdiemTS" class="">Tinh diem</button>
+      <h3 id="daurot" class="" style="margin: 20px"></h3>
+    </div>
+    <br class="" />
+
+    <!-- Bài 2 -->
+    <h1 class="">Bài 2</h1>
+    <div
+      id="Bai2"
+      class=""
+      style="
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 400px;
+        margin-top: 20px;
+      "
+    >
+      <!-- Người -->
+      <div style="display: flex; align-items: center; gap: 20px">
+        <h2 class="" style="font-weight: 400; flex: 1">Tên khách hàng</h2>
+        <input
+          type="text"
+          id="b2-tenKH"
+          class=""
+          placeholder="Vũ Ngô"
+          style="
+            flex: 2;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          "
+        />
+      </div>
+
+      <!-- Điện -->
+      <div style="display: flex; align-items: center; gap: 20px">
+        <h2 class="" style="font-weight: 400; flex: 1">Số kw</h2>
+        <input
+          type="text"
+          id="b2-soKW"
+          class=""
+          placeholder="10000"
+          style="
+            flex: 2;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          "
+        />
+      </div>
+    </div>
+    <h2 class="">Chon loai dien</h2>
+    <ul class="">
+      <li class="type">
+        <input type="radio" id="dienGD" value="dienGD" name="selector" />
+        <label for="dienGD" class=""> Điện gia dụng </label>
+        <div class="check"></div>
+      </li>
+      <li class="type">
+        <input type="radio" id="dienSX" value="dienSX" name="selector" />
+        <label for="dienSX" class=""> Điện sản xuất</label>
+        <div class="check"></div>
+      </li>
+    <div class="" style="display: flex">
+      <button id="btn-tinhtiendien" class="">Tinh tien dien</button>
+      <h3 id="b2-tiendien" class="" style="margin: 20px"></h3>
+    </div>
+
+    <!-- Bài 3 -->
+    <div class="Bai 3">
+        <h2 class="">Bài 3</h2>
+        <div style="display: flex; align-items: center; gap: 20px">
+            <h2 class="" style="font-weight: 400; flex: 1">Họ tên</h2>
+            <input
+              type="text"
+              id="b3-tenKH"
+              class=""
+              placeholder="Vũ Ngô"
+              style="
+                flex: 2;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+              "
+            />
+          </div>
+    
+          <!-- Tổng thu nhập năm -->
+          <div style="display: flex; align-items: center; gap: 20px">
+            <h2 class="" style="font-weight: 400; flex: 1">Tổng thu nhập năm (triệu VND)</h2>
+            <input
+              type="text"
+              id="b3-thunhap"
+              class=""
+              placeholder="600"
+              style="
+                flex: 2;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+              "
+            />
+          </div>
+          <!-- Số người phụ thuộc -->
+          <div style="display: flex; align-items: center; gap: 20px">
+            <h2 class="" style="font-weight: 400; flex: 1">Số người phụ thuộc</h2>
+            <input
+              type="text"
+              id="b3-dependants"
+              class=""
+              placeholder="2"
+              style="
+                flex: 2;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+              "
+            />
+          </div>
+          <div class="" style="display: flex">
+            <button id="btn-tinhthue" class="">Tính thuế phải trả</button>
+            <h3 id="b3-tienthue" class="" style="margin: 20px"></h3>
+          </div>
+    </div>
+    <!-- Bài 4 -->
+    <h2 class="">Bài 4</h2>
+    <h2 class="">Làm ko kịp phần ẩn field thầy ơi</h2>
+    <h2 class="">Đáng lẽ phải cho chọn chứ ko cho nhập loại khách hàng, em làm ko kịp</h2>
+    <div class="" style="display: flex">
+        <h2 class="" style="font-weight: 400">Mã kh</h2>
+        <input
+          type="text"
+          id="b4-maKH"
+          class=""
+          placeholder="18"
+          style="margin: 20px"
+        />
+        <h2 class="" style="font-weight: 400">Loại KH - "Nhà dân"/ "Doanh nghiệp" </h2>
+        <input
+          type="text"
+          id="b4-loaiKH"
+          class=""
+          placeholder="19"
+          style="margin: 20px"
+        />
+      </div>
+      <div class="" style="display: flex">
+        <h2 class="" style="font-weight: 400">Số kết nối</h2>
+        <input
+          type="text"
+          id="b4-soKetNoi"
+          class=""
+          placeholder="18"
+          style="margin: 20px"
+        />
+        <h2 class="" style="font-weight: 400">Số kênh cao cấp</h2>
+        <input
+          type="text"
+          id="b4-soKenhCaoCap"
+          class=""
+          placeholder="19"
+          style="margin: 20px"
+        />
+        <div class="" style="display: flex">
+            <button id="btn-tinhhoadon" class="">Tính hoá đơn</button>
+            <h3 id="b4-tienhoadon" class="" style="margin: 20px"></h3>
+          </div>
+      </div>
+    <script class="" src="index.js"></script>
+  </body>
+</html>
